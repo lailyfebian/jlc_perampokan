@@ -1207,7 +1207,7 @@ p {
     }
 
     .feature-item .feature-subtitle {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .feature-item p {
@@ -1242,11 +1242,11 @@ p {
         padding: 8px 15px;
     }
 
-    .hero-content h1 {
+   /* .hero-content h1 {
         font-size: 32px !important;
         line-height: 1.15;
         margin-bottom: 20px;
-    }
+    }*/
 
     .hero-content p {
         font-size: 14px;
@@ -1440,7 +1440,7 @@ p {
     }
 
     .about-title {
-        font-size: 28px;
+        font-size: 28px !important;
         line-height: 1.25;
         margin-bottom: 20px;
     }
@@ -1477,12 +1477,12 @@ p {
         letter-spacing: 1.5px;
     }
 
-    .about-title {
+    /*.about-title {
         font-size: 30px;
         margin: 12px 0 18px;
         line-height: 1.3;
     }
-
+*/
     .about-content {
         max-height: none;
     }
@@ -1757,7 +1757,7 @@ p {
 
 .why-content .why-title {
     font-family: "Cormorant Garamond", serif;
-    font-size: 24px;
+    font-size: 24px !important;
     font-weight: 900;
     line-height: 1.2;
     color: #132645;
@@ -1798,7 +1798,7 @@ p {
     }
 
     .section-heading h3 {
-        font-size: 24px !important;
+        font-size: 28px !important;
     }
 
     .section-heading p {
@@ -1892,7 +1892,7 @@ p {
 .choose-heading {
     margin-bottom: 24px;
     color: #132645;
-    font-size: 42px;
+    font-size: 46px;
     line-height: 1.2;
     font-weight: 700;
 }
@@ -1953,7 +1953,7 @@ p {
 .choose-feature-card .why-title {
     margin: 0 0 4px;
     color: #132645;
-    font-size: 22px;
+    font-size: 24px !important;
     line-height: 1.35;
     font-weight: 700;
 }
@@ -2130,7 +2130,7 @@ p {
 
 .section-title {
     margin-top: 20px;
-    font-size: 48px;
+    font-size: 46px;
     line-height: 1.2;
     font-weight: 700;
     color: var(--primary);
@@ -2932,13 +2932,6 @@ p {
     overflow: hidden;
 }
 
-.team-section-2 {
-    position: relative;
-    padding: 70px 0;
-    background: #fbfbfc;
-    overflow: hidden;
-}
-
 .team-section-2::before {
     content: "";
     position: absolute;
@@ -3007,7 +3000,7 @@ p {
     max-width: 850px;
     margin: 0 auto;
     color: #4d596a;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.8;
 }
 
@@ -3196,7 +3189,7 @@ p {
     }
 
     .team-section-2-subtitle {
-        font-size: 13px;
+        font-size: 11px;
         letter-spacing: 2px;
     }
 
@@ -3206,11 +3199,15 @@ p {
     }
 
     .team-section-2-title {
-        font-size: 38px;
+        font-size: 28px !important;
+    }
+
+    .team-section-2-title span {
+        font-size: 28px !important;
     }
 
     .team-section-2-description {
-        font-size: 18px;
+        font-size: 14px !important;
         line-height: 1.8;
     }
 
@@ -3236,10 +3233,10 @@ p {
         font-size: 32px;
     }
 
-    .team-section-2-description {
+    /*.team-section-2-description {
         font-size: 16px;
     }
-
+*/
     .team-section-2-content .team-name {
         font-size: 19px;
     }
@@ -3257,7 +3254,6 @@ p {
         transition: none;
     }
 }
-
 .cta-section-2 {
     position: relative;
     overflow: hidden;
@@ -3544,7 +3540,7 @@ p {
     }
 
     .cta-section-2-title {
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .cta-section-2-subtitle {
@@ -3589,10 +3585,10 @@ p {
         padding: 25px 18px;
     }
 
-    .cta-section-2-title {
+   /* .cta-section-2-title {
         font-size: 30px;
     }
-
+*/
     .cta-section-2-subtitle {
         font-size: 17px;
     }
@@ -4261,7 +4257,7 @@ p {
 .layanan-card .why-title {
     margin-bottom: 14px;
     color: #1b3a63;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.4;
     text-align: center;
@@ -4908,7 +4904,6 @@ p {
 /* ==============================
    SECTION LIST KOTA JLC
 ============================== */
-
 .list-kota-section {
     width: 100%;
     padding: 40px 20px;
@@ -4971,7 +4966,7 @@ p {
     font-family: 'Georgia', serif !important;
     margin: 0 auto 15px;
     color: #102544 !important;
-    font-size: clamp(36px, 4.5vw, 62px);
+    font-size: 46px;
     font-weight: 500;
     line-height: 1.4; display: block;
     color: #c58a20;
@@ -4980,7 +4975,7 @@ p {
 .list-kota-header h2 span{
     font-family: 'Georgia', serif !important;
     margin: 0 auto 15px;
-    font-size: clamp(36px, 4.5vw, 62px);
+    font-size: 46px;
     font-weight: 500;
     line-height: 1.4; 
     display: block;
@@ -4993,7 +4988,7 @@ p {
     font-family: 'Inter', serif !important;
     margin: 0 auto 12px;
     color: #727272;
-    font-size: 17px !important;
+    font-size: 16px !important;
     font-weight: 400;
     line-height: 1.8;
 }
@@ -5037,7 +5032,7 @@ p {
     border: 1px solid #E9EDF3;
     border-radius: 8px;
     color: #102544 !important;
-    font-size: 17px !important;
+    font-size: 16px !important;
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none !important;
@@ -5097,7 +5092,7 @@ p {
     font-family: 'Inter', serif !important;
     margin: 0;
     color: #526176;
-    font-size: 17px !important;
+    font-size: 16px !important;
     font-weight: 400;
     line-height: 1.7;
     text-align: center;
@@ -5152,7 +5147,7 @@ p {
 
     .list-kota-header h2 {
         font-family: 'Georgia', serif !important;
-        font-size: 27px !important;
+        font-size: 28px !important;
         line-height: 1.4;
         margin-bottom: 12px;
     }
@@ -5235,7 +5230,6 @@ p {
         font-size: 10px !important;
     }
 }
-
 
 
 /* Section button WA */
